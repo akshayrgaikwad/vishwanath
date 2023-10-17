@@ -1,0 +1,101 @@
+.idea/
+
+# Ignore system and environment-specific files
+*.pyc
+__pycache__/
+*.pyo
+*.db
+*.sqlite3
+*.log
+*.pot
+*.bak
+local_settings.py
+
+# Ignore development-specific files
+settings.py
+manage.py
+
+# Ignore media and static files (if you're serving them outside of Django)
+media/
+static/
+
+# Ignore virtual environments (if using virtualenv or similar)
+venv/
+env/
+.Python
+.python-version
+
+# Ignore database migrations
+**/migrations/
+
+# Ignore package cache directory (pipenv, poetry, etc.)
+.pip-cache/
+
+# Ignore IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+*.sublime-project
+*.vscode
+*.pyproj
+*.pid
+Thumbs.db
+.DS_Store
+
+# Ignore log and cache files
+log/
+cache/
+
+# Ignore compiled files
+*.pyc
+
+# Ignore macOS folder attributes
+__MACOSX/
+
+# Ignore test coverage results
+.coverage
+htmlcov/
+
+# Ignore Docker-related files (if you're using Docker)
+Dockerfile
+docker-compose.yml
+
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Ignore any local or sensitive files, such as secrets and keys
+secret_key.txt
+.env
+.env.dev
+.env.prod
+
+# Ignore user-specific settings
+*.swp
+*~
+*.project
+*.pyc
+
+# Ignore node.js and npm files (if using JavaScript)
+node_modules/
+package-lock.json
+
+# Ignore TypeScript-related files (if using TypeScript)
+*.ts
+*.js
+*.map
+
+# Ignore compiled JavaScript files (if not in the source code)
+dist/
+
+# Ignore Python Bytecode files
+__pycache__/
+*.pyc
+
+# Ignore editor autosave files
+*.swp
+*~
+
+# Ignore database files
+*.sqlite3

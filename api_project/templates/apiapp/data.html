@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Employee List</title>
+</head>
+<body>
+<div>
+        <h1 align="center">Employee List</h1>
+    <table border='5px' cellpadding="10" align="center">
+        <thead align="center">
+            <th>Name</th>
+            <th>Gender</th>
+            <th>Designation</th>
+            <th>Mobile</th>
+            <th>Salary</th>
+        </thead>
+        <tbody>
+            {% for employee in employees %}
+                <tr>
+                    <td>{{ employee.employee_name }}</td>
+                    <td>{{ employee.get_gender_display }}</td>
+                    <td>{{ employee.get_designation_display }}</td>
+                    <td>{{ employee.mobile }}</td>
+                    <td>{{ employee.salary }}</td>
+                </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+
+
+</div>
+</body>
+</html>
+
+
+</body>
+</html>
